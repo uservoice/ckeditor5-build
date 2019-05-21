@@ -16,6 +16,7 @@ import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
+import CodeBlock from '@mcfreddie777/ckeditor5-code-block/src/codeblock';
 
 import './ckeditor.css';
 
@@ -29,6 +30,7 @@ UserVoiceEditor.builtinPlugins = [
 	Italic,
 	BlockQuote,
 	Link,
+	CodeBlock,
 	List,
 	Paragraph,
 	PasteFromOffice,
@@ -44,6 +46,7 @@ UserVoiceEditor.defaultConfig = {
 			'bold',
 			'italic',
 			'link',
+			'codeBlock',
 			'bulletedList',
 			'numberedList',
 		]
